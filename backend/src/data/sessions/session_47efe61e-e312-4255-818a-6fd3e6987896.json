@@ -1,0 +1,62 @@
+{
+  "id": "session_47efe61e-e312-4255-818a-6fd3e6987896",
+  "role": "Full stack developer",
+  "skills": [
+    "python",
+    "javascript",
+    "react"
+  ],
+  "difficulty": "mid",
+  "status": "in_progress",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Describe a scenario where you would choose to use React's Context API over prop drilling, and when you might consider a dedicated state management library like Redux or Zustand.",
+      "category": "technical",
+      "answer": "Zustand",
+      "score": 0,
+      "feedback": "The answer provided a single word, which is an example of a state management library mentioned in the question, but did not address any part of the prompt regarding scenarios, comparisons, or considerations for state management choices.",
+      "strengths": [],
+      "gaps": [
+        "Did not describe scenarios for Context API vs. prop drilling",
+        "Did not explain when to choose a dedicated state management library",
+        "Lacked any depth or explanation for the provided term",
+        "Failed to demonstrate understanding of the trade-offs in state management"
+      ],
+      "answeredAt": "2026-07-07T02:49:15.493Z"
+    },
+    {
+      "index": 1,
+      "question": "When building a RESTful API with Python, what are some key considerations for error handling and validation, and how would you implement them to provide clear feedback to the client?",
+      "category": "technical",
+      "answer": "RESTful API with Python, what are some key considerations for error handling and validation, and how would you implement them to provide clear feedback to the client",
+      "score": 0,
+      "feedback": "The candidate's response was a verbatim restatement of the question, providing no actual content or answer. There is nothing to evaluate regarding error handling, validation, or implementation details.",
+      "strengths": [],
+      "gaps": [
+        "No answer provided",
+        "Lack of content",
+        "Did not address any part of the question"
+      ],
+      "answeredAt": "2026-07-07T02:50:34.122Z"
+    },
+    {
+      "index": 2,
+      "question": "Imagine you're building a new feature that requires sensitive user data to be sent from the React frontend, processed by the Python backend, and stored in a database. Describe the steps you would take to ensure data security and integrity throughout this entire flow, from client to database.",
+      "category": "role-specific"
+    },
+    {
+      "index": 3,
+      "question": "You've deployed a new feature, and users are reporting that a particular component in the React frontend feels sluggish when interacting with it, especially when fetching a large dataset from the Python backend. Outline your diagnostic process to identify the bottleneck, and suggest potential solutions for both the frontend and backend.",
+      "category": "problem-solving"
+    },
+    {
+      "index": 4,
+      "question": "Describe a situation where you had to learn a new technology or framework quickly to complete a project. What was your approach to learning, and how did you ensure your work met the project requirements and quality standards?",
+      "category": "behavioral"
+    }
+  ],
+  "currentQuestionIndex": 2,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T02:48:38.025Z"
+}

@@ -29,7 +29,7 @@ export class QuestionGenerator {
 
   async generate(input: QuestionGenerationInput): Promise<GeneratedQuestion[]> {
     const prompt = buildQuestionGenerationPrompt(input);
-    const rawText = await this.aiProvider.generateText(prompt, { temperature: 0.8 });
+    const rawText = await this.aiProvider.generateText(prompt, { temperature: 0.8, maxOutputTokens: 2048 });
     const parsed = parseJsonFromAiText<RawQuestionGenerationResponse>(rawText);
 
     if (!Array.isArray(parsed.questions) || parsed.questions.length === 0) {

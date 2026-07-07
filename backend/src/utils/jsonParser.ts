@@ -49,9 +49,28 @@ function extractJsonSpan(text: string): string {
   }
 
   let depth = 0;
+  let inString = false;
+  let escapeNext = false;
+
   for (let i = start; i < text.length; i++) {
-    if (text[i] === openChar) depth++;
-    if (text[i] === closeChar) depth--;
+    const char = text[i];
+
+    if (escapeNext) {
+      escapeNext = false;
+      continue;
+    }
+    if (char === "\\") {
+      escapeNext = true;
+      continue;
+    }
+    if (char === '"') {
+      inString = !inString;
+      continue;
+    }
+    if (inString) continue;
+
+    if (char === openChar) depth++;
+    if (char === closeChar) depth--;
     if (depth === 0) {
       return text.slice(start, i + 1);
     }

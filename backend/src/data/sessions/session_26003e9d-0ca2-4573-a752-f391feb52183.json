@@ -1,0 +1,109 @@
+{
+  "id": "session_26003e9d-0ca2-4573-a752-f391feb52183",
+  "role": "Full stack Developer",
+  "skills": [
+    "React",
+    "python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Explain how `useEffect` works in React and common scenarios where you would use it to manage side effects, providing an example of a practical application.",
+      "category": "technical",
+      "answer": "useEffect",
+      "score": 0,
+      "feedback": "The answer provided is merely the name of the hook and does not explain its functionality, common scenarios, or provide a practical example as requested by the question.",
+      "strengths": [],
+      "gaps": [
+        "Lack of explanation for `useEffect` functionality",
+        "Failure to describe common use cases or scenarios",
+        "Absence of a practical application example",
+        "No depth or clarity in the response"
+      ],
+      "answeredAt": "2026-07-07T03:25:25.727Z"
+    },
+    {
+      "index": 1,
+      "question": "In a Python web application, how would you handle asynchronous operations and I/O-bound tasks to maintain responsiveness and scalability? Discuss the techniques and tools you would consider.",
+      "category": "technical",
+      "answer": "useEffect",
+      "score": 0,
+      "feedback": "The answer refers to a React Hook, which is a JavaScript concept for front-end development, not a technique for handling asynchronous operations or I/O-bound tasks in a Python web application. This indicates a fundamental misunderstanding of the question's context.",
+      "strengths": [],
+      "gaps": [
+        "Lack of understanding of Python's asynchronous programming models and concurrency primitives",
+        "Confusion between front-end (JavaScript/React) and back-end (Python) technologies",
+        "No discussion of relevant Python tools or techniques for handling I/O-bound tasks"
+      ],
+      "answeredAt": "2026-07-07T03:25:39.959Z"
+    },
+    {
+      "index": 2,
+      "question": "Imagine you need to implement an API endpoint for users to upload large files (e.g., video files) to your application. Describe the key architectural and design considerations you would take into account for both the frontend and backend.",
+      "category": "system-design",
+      "answer": "useEffect",
+      "score": 0,
+      "feedback": "The answer provided a single React hook, 'useEffect', which does not address any of the architectural or design considerations for large file uploads on either the frontend or backend.",
+      "strengths": [],
+      "gaps": [
+        "Failed to address system design considerations for large file uploads",
+        "Did not cover frontend or backend architectural aspects",
+        "Provided an irrelevant implementation detail instead of high-level design"
+      ],
+      "answeredAt": "2026-07-07T03:25:50.507Z"
+    },
+    {
+      "index": 3,
+      "question": "A new feature you deployed occasionally displays stale data on the frontend, even after a full page refresh. Walk me through your step-by-step diagnostic process to identify and resolve the root cause, considering both frontend and backend possibilities.",
+      "category": "problem-solving",
+      "answer": "deployed",
+      "score": 0,
+      "feedback": "The provided answer is incomplete and does not offer any diagnostic steps or insights into the problem. It appears to be a partial input rather than a full response.",
+      "strengths": [],
+      "gaps": [
+        "No diagnostic process described",
+        "No frontend or backend possibilities considered",
+        "Incomplete answer"
+      ],
+      "answeredAt": "2026-07-07T03:26:00.644Z"
+    },
+    {
+      "index": 4,
+      "question": "As a full-stack developer, how do you ensure consistency, maintainability, and alignment between your React frontend and Python backend, especially when working in a team environment?",
+      "category": "role-specific",
+      "answer": "full",
+      "score": 0,
+      "feedback": "The candidate's answer was a single word and did not address any part of the question. It provides no information regarding their approach to ensuring consistency, maintainability, or alignment between frontend and backend.",
+      "strengths": [],
+      "gaps": [
+        "Did not answer the question",
+        "Lack of technical detail",
+        "No demonstration of understanding core concepts"
+      ],
+      "answeredAt": "2026-07-07T03:26:11.500Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T03:25:07.042Z",
+  "completedAt": "2026-07-07T03:26:11.500Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [
+      "No demonstrable strengths were observed during the interview."
+    ],
+    "gaps": [
+      "Fundamental lack of technical knowledge in React, specifically `useEffect`.",
+      "No understanding of asynchronous programming or I/O-bound task handling in Python web applications.",
+      "Inability to articulate key architectural and design considerations for common system design problems like large file uploads.",
+      "Absence of a structured problem-solving approach for diagnosing and resolving issues like stale data.",
+      "Lack of awareness regarding best practices for ensuring consistency and maintainability in full-stack development.",
+      "Inability to provide relevant or coherent answers to any of the posed questions."
+    ],
+    "recommendation": "The candidate provided no relevant answers to any of the technical, system design, or problem-solving questions. There is a complete lack of foundational knowledge in both React and Python, as well as general software engineering principles. This candidate does not meet the minimum requirements for a mid-level Full Stack Developer role and should not be considered for hire.",
+    "generatedAt": "2026-07-07T03:26:16.414Z"
+  }
+}
