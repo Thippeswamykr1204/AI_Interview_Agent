@@ -63,6 +63,13 @@ npm run dev
 
 Runs on `http://localhost:5173`. No `.env` needed for local dev — it defaults to `http://localhost:4000/api`. To point elsewhere, set `VITE_API_BASE_URL` in a `frontend/.env`.
 
+## Sample Output
+
+Real completed session, saved by the app:
+`docs/sample-transcript.json`
+
+Contains: 5 questions, 5 scored answers, final evaluation.
+
 ## Usage
 
 1. Open `http://localhost:5173`
