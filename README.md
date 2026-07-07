@@ -95,3 +95,22 @@ Runs on `http://localhost:5173`. No `.env` needed for local dev — it defaults 
 
 - Interview sessions are persisted as one JSON file per session under `backend/src/data/sessions/` (gitignored).
 - Swapping AI providers means implementing `AIProvider` and registering it in `ai/ai.factory.ts` — no other file changes.
+
+## Tradeoffs
+
+- **Gemini over other LLMs.** Picked for free tier + speed. Swappable via `AIProvider` interface. No hard lock-in.
+- **JSON file storage over SQLite/Postgres.** Fast to ship. Fine for single-session demo. Not safe for concurrent writes at scale.
+- **Score computed twice.** Average score computed in code (deterministic). Overall score comes from AI (holistic judgment). Tradeoff: two numbers, not one. Chose accuracy over simplicity.
+- **No streaming responses.** Full AI response awaited before returning. Simpler code. Slower perceived UX.
+- **No retry/backoff on AI calls.** One AI failure = one question fails. Faster to build. Less resilient.
+- **No auth.** Any session ID can be fetched by anyone who has it. Fine for demo. Not production-safe.
+
+## Limitations
+
+- Single AI provider implemented (Gemini). Interface supports more, none built.
+- No transcribed voice input. Typed answers only.
+- No automated tests.
+- Session storage not thread-safe under concurrent load.
+- No rate limiting on API endpoints.
+- API key currently checked into `.env` in this build. Must rotate before any public repo push.
+- No pagination for session list (not needed at current scale, would matter at higher volume).
