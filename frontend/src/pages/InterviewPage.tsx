@@ -27,6 +27,7 @@ export function InterviewPage() {
   } = useInterviewSession();
 
   const [awaitingContinue, setAwaitingContinue] = useState(false);
+  const [reviewingQuestionNumber, setReviewingQuestionNumber] = useState<number | null>(null);
 
   useEffect(() => {
     if (!sessionId) return;
@@ -52,15 +53,19 @@ export function InterviewPage() {
 
   async function handleSubmitAnswer(answer: string) {
     if (!sessionId) return;
+    setReviewingQuestionNumber(session!.currentQuestionIndex + 1);
     setAwaitingContinue(false);
     const result = await submitAnswer(sessionId, answer);
     if (result) {
       setAwaitingContinue(true);
+    } else {
+      setReviewingQuestionNumber(null);
     }
   }
 
   function handleContinue() {
     setAwaitingContinue(false);
+    setReviewingQuestionNumber(null);
     if (session?.status === "completed") {
       navigate(`/results/${sessionId}`);
     }
@@ -72,8 +77,9 @@ export function InterviewPage() {
   return (
     <PageShell maxWidth="md">
       <ProgressBar
-        current={showFeedback ? session.currentQuestionIndex + (isSessionComplete ? 0 : 1) : session.currentQuestionIndex + 1}
+        current={reviewingQuestionNumber ?? session.currentQuestionIndex + 1}
         total={session.totalQuestions}
+        isComplete={isSessionComplete}
       />
 
       <Card>

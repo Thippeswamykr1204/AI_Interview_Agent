@@ -4,8 +4,10 @@ import { PageShell } from "../components/layout/PageShell";
 import { Card, CardHeader } from "../components/ui/Card";
 import { Button } from "../components/ui/Button";
 import { ErrorBanner } from "../components/ui/ErrorBanner";
+import { AutosuggestInput } from "../components/ui/AutosuggestInput";
 import { useInterviewSession } from "../hooks/useInterviewSession";
 import { DifficultyLevel } from "../types/interview.types";
+import { ROLE_SUGGESTIONS, SKILL_SUGGESTIONS } from "../data/suggestions";
 
 const DIFFICULTY_OPTIONS: { value: DifficultyLevel; label: string }[] = [
   { value: "junior", label: "Junior" },
@@ -61,34 +63,27 @@ export function SetupPage() {
         {startError && <div className="mb-5"><ErrorBanner message={startError} /></div>}
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          <div>
-            <label htmlFor="role" className="mb-1.5 block text-sm font-medium text-slate-300">
-              Role
-            </label>
-            <input
-              id="role"
-              type="text"
-              value={role}
-              onChange={(e) => setRole(e.target.value)}
-              placeholder="e.g. Full Stack Developer"
-              required
-              className="w-full rounded-xl border border-slate-800 bg-slate-900/60 px-4 py-2.5 text-slate-100 placeholder-slate-500 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/50"
-            />
-          </div>
+          <AutosuggestInput
+            id="role"
+            label="Role"
+            value={role}
+            onChange={setRole}
+            suggestions={ROLE_SUGGESTIONS}
+            placeholder="e.g. Full Stack Developer"
+            required
+            mode="single"
+          />
 
-          <div>
-            <label htmlFor="skills" className="mb-1.5 block text-sm font-medium text-slate-300">
-              Key skills <span className="text-slate-500">(comma-separated)</span>
-            </label>
-            <input
-              id="skills"
-              type="text"
-              value={skillsInput}
-              onChange={(e) => setSkillsInput(e.target.value)}
-              placeholder="e.g. React, Node.js, MongoDB"
-              className="w-full rounded-xl border border-slate-800 bg-slate-900/60 px-4 py-2.5 text-slate-100 placeholder-slate-500 outline-none transition-colors focus:border-indigo-500/50 focus:ring-1 focus:ring-indigo-500/50"
-            />
-          </div>
+          <AutosuggestInput
+            id="skills"
+            label="Key skills"
+            hint="(comma-separated)"
+            value={skillsInput}
+            onChange={setSkillsInput}
+            suggestions={SKILL_SUGGESTIONS}
+            placeholder="e.g. React, Node.js, MongoDB"
+            mode="commaList"
+          />
 
           <div className="grid grid-cols-2 gap-4">
             <div>

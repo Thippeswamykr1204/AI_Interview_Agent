@@ -1,10 +1,13 @@
 interface ProgressBarProps {
   current: number;
   total: number;
+  isComplete?: boolean;
 }
 
-export function ProgressBar({ current, total }: ProgressBarProps) {
-  const percentage = Math.min(100, Math.round((current / total) * 100));
+export function ProgressBar({ current, total, isComplete = false }: ProgressBarProps) {
+  const percentage = isComplete
+    ? 100
+    : Math.min(100, Math.round(((Math.min(current, total) - 1) / total) * 100));
 
   return (
     <div className="mb-8">
