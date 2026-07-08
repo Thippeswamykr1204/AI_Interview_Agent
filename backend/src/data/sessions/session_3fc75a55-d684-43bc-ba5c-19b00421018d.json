@@ -1,0 +1,92 @@
+{
+  "id": "session_3fc75a55-d684-43bc-ba5c-19b00421018d",
+  "role": "Full stack developer",
+  "skills": [
+    "Python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Describe how you would implement asynchronous operations in a Python web application, contrasting approaches like `asyncio` with traditional blocking I/O, and discuss the trade-offs involved in choosing one over the other for different use cases.",
+      "category": "technical",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:43:34.579Z"
+    },
+    {
+      "index": 1,
+      "question": "As a full-stack developer, how do you approach ensuring data consistency and efficient communication between your Python backend API and a JavaScript frontend application? Discuss common patterns, potential challenges, and strategies to mitigate them.",
+      "category": "role-specific",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:43:37.541Z"
+    },
+    {
+      "index": 2,
+      "question": "You're responsible for a Python web service that is experiencing intermittent slow response times, but only for certain requests. Describe your systematic approach to diagnose and identify the root cause of this performance bottleneck, assuming you have access to application logs, server metrics, and code.",
+      "category": "problem-solving",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:43:42.450Z"
+    },
+    {
+      "index": 3,
+      "question": "Tell me about a challenging technical problem you faced in a recent project where you had to choose between multiple viable solutions. How did you evaluate the options, what factors influenced your final decision, and what was the outcome or lesson learned?",
+      "category": "behavioral",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:43:46.564Z"
+    },
+    {
+      "index": 4,
+      "question": "Consider a requirement to add a real-time activity feed or notification system to an existing Python web application. Outline the key backend components you would consider for this system, describing their purpose and how they would interact to deliver timely updates to users.",
+      "category": "system-design",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:43:50.945Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T09:43:31.474Z",
+  "completedAt": "2026-07-07T09:43:50.945Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [
+      "No demonstrable strengths were observed as the candidate did not provide answers to any questions."
+    ],
+    "gaps": [
+      "Inability to articulate solutions or understanding for fundamental full-stack development concepts (asynchronous operations, data consistency), problem-solving approaches, system design principles, and behavioral scenarios."
+    ],
+    "recommendation": "The candidate provided no answers to any of the interview questions, making it impossible to assess their technical skills, problem-solving abilities, or behavioral competencies. Consequently, there is no hiring signal whatsoever. Based on this complete lack of response, the candidate cannot be recommended for the Full Stack Developer role.",
+    "generatedAt": "2026-07-07T09:44:03.501Z"
+  }
+}

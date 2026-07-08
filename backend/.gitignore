@@ -11,7 +11,9 @@ dist/
 build/
 
 # Session data
-src/data/sessions/*.json
+src/data/*.db
+src/data/*.db-wal
+src/data/*.db-shm
 
 # Logs
 npm-debug.log*

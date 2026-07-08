@@ -3,6 +3,7 @@ import cors from "cors";
 import { apiRoutes } from "./routes";
 import { requestLogger } from "./middleware/requestLogger";
 import { errorHandler, notFoundHandler } from "./middleware/errorHandler";
+import { globalLimiter } from "./middleware/rateLimiter";
 import { env } from "./config/env";
 
 export function createApp(): Express {
@@ -11,6 +12,7 @@ export function createApp(): Express {
   app.use(cors({ origin: env.corsOrigin }));
   app.use(express.json({ limit: "1mb" }));
   app.use(requestLogger);
+  app.use("/api", globalLimiter);
 
   app.use("/api", apiRoutes);
 

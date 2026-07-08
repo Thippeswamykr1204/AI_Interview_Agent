@@ -1,17 +1,17 @@
-import { JsonStorage } from "./jsonStorage";
+import { SqliteStorage } from "./sqliteStorage";
 import { InterviewSession } from "../types/session.types";
 import { NotFoundError } from "../types/api.types";
 import { env } from "../config/env";
 
 /**
  * Repository for InterviewSession persistence.
- * Wraps the generic JsonStorage with domain-specific operations
+ * Wraps the generic SqliteStorage with domain-specific operations
  * so services never touch the storage layer directly.
  */
 export class SessionRepository {
-  private readonly storage: JsonStorage<InterviewSession>;
+  private readonly storage: SqliteStorage<InterviewSession>;
 
-  constructor(storage: JsonStorage<InterviewSession> = new JsonStorage<InterviewSession>(env.dataDir)) {
+  constructor(storage: SqliteStorage<InterviewSession> = new SqliteStorage<InterviewSession>(env.dbPath)) {
     this.storage = storage;
   }
 
@@ -43,5 +43,10 @@ export class SessionRepository {
 
   async listAllIds(): Promise<string[]> {
     return this.storage.listIds();
+  }
+
+  /** Call on graceful shutdown (SIGTERM/SIGINT) so the WAL is checkpointed cleanly. */
+  close(): void {
+    this.storage.close();
   }
 }

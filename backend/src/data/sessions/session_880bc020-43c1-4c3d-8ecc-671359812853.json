@@ -1,0 +1,104 @@
+{
+  "id": "session_880bc020-43c1-4c3d-8ecc-671359812853",
+  "role": "Full stack developer",
+  "skills": [
+    "Python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Describe the purpose of middleware in a web framework like Django or Flask. Provide an example of a common use case where you would implement custom middleware in a Python web application.",
+      "category": "technical",
+      "answer": "middleware",
+      "score": 0,
+      "feedback": "The answer provided is a single word and does not describe the purpose of middleware or provide any examples, thus failing to address the question.",
+      "strengths": [],
+      "gaps": [
+        "Lack of description for middleware's purpose",
+        "No example of custom middleware implementation",
+        "No explanation of how middleware functions in a web framework"
+      ],
+      "answeredAt": "2026-07-07T04:54:26.335Z"
+    },
+    {
+      "index": 1,
+      "question": "You need to design a REST API endpoint for a full-stack application that allows users to upload a profile picture. Outline the key considerations for both the backend (e.g., storage, validation, security) and how the frontend would interact with this endpoint. What potential challenges might arise, and how would you address them?",
+      "category": "system-design",
+      "answer": "You",
+      "score": 0,
+      "feedback": "The candidate did not provide any content for evaluation. Therefore, no assessment of their understanding of the topic can be made.",
+      "strengths": [],
+      "gaps": [
+        "No answer provided"
+      ],
+      "answeredAt": "2026-07-07T04:54:43.304Z"
+    },
+    {
+      "index": 2,
+      "question": "Tell me about a time you encountered a significant technical challenge or bug that was difficult to diagnose and resolve. What was your approach to troubleshooting, and what steps did you take to ultimately fix it? What did you learn from that experience?",
+      "category": "behavioral",
+      "answer": "learn",
+      "score": 0,
+      "feedback": "The answer provided is a single word and does not address any part of the question. It lacks the necessary detail and context to evaluate the candidate's experience with technical challenges or their troubleshooting approach.",
+      "strengths": [],
+      "gaps": [
+        "Did not describe a technical challenge or bug",
+        "Did not explain troubleshooting approach or steps taken",
+        "Did not articulate what was learned from the experience",
+        "Lacked any relevant detail or context"
+      ],
+      "answeredAt": "2026-07-07T04:55:16.818Z"
+    },
+    {
+      "index": 3,
+      "question": "Imagine you've just deployed a new feature to production, and users are reporting intermittent but frequent HTTP 500 errors when interacting with it. You check the logs, but they are sparse and don't immediately point to a clear root cause. What diagnostic steps would you take, both on the frontend and backend, to pinpoint and resolve this issue?",
+      "category": "problem-solving",
+      "answer": "Imagine",
+      "score": 0,
+      "feedback": "The candidate's response is incomplete and does not provide any diagnostic steps or information relevant to the question. It appears to be a placeholder rather than an actual answer.",
+      "strengths": [],
+      "gaps": [
+        "No diagnostic steps provided",
+        "Incomplete response",
+        "Lack of content to evaluate"
+      ],
+      "answeredAt": "2026-07-07T04:55:27.879Z"
+    },
+    {
+      "index": 4,
+      "question": "As a full-stack developer, how do you approach ensuring a consistent and efficient data flow between the frontend and backend of a web application? What strategies do you use to minimize unnecessary data fetching, optimize API calls, or improve UI responsiveness related to data operations?",
+      "category": "role-specific",
+      "answer": "stack",
+      "score": 0,
+      "feedback": "The answer provided is a single word (\"stack\") and does not address any part of the question regarding data flow, optimization, or UI responsiveness. It offers no technical insight.",
+      "strengths": [],
+      "gaps": [
+        "Lack of content",
+        "No strategies provided",
+        "No technical discussion relevant to the question"
+      ],
+      "answeredAt": "2026-07-07T04:55:38.683Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T04:53:51.526Z",
+  "completedAt": "2026-07-07T04:55:38.683Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [
+      "None demonstrated during this interview."
+    ],
+    "gaps": [
+      "Fundamental lack of technical knowledge across core full-stack domains (web frameworks, API design, data flow).",
+      "Inability to articulate problem-solving strategies or diagnostic approaches for common technical issues.",
+      "Lack of communication and elaboration skills, providing minimal to no substantive answers.",
+      "Absence of demonstrable experience in handling technical challenges or system design."
+    ],
+    "recommendation": "The candidate provided no substantive answers to any of the interview questions, scoring 0 across all technical, system design, behavioral, and problem-solving domains. This indicates a complete lack of foundational knowledge, relevant experience, and communication skills required for a mid-level full-stack developer role. Based on this performance, the recommendation is a strong 'Do Not Hire'.",
+    "generatedAt": "2026-07-07T04:55:46.411Z"
+  }
+}

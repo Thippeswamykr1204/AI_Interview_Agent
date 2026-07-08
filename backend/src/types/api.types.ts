@@ -51,3 +51,17 @@ export class AIProviderError extends AppError {
     this.name = "AIProviderError";
   }
 }
+
+export class UnauthorizedError extends AppError {
+  constructor(message = "Missing or invalid API key", details?: unknown) {
+    super(message, 401, "UNAUTHORIZED", details);
+    this.name = "UnauthorizedError";
+  }
+}
+
+export class RateLimitError extends AppError {
+  constructor(message = "Too many requests", details?: unknown) {
+    super(message, 429, "RATE_LIMITED", details);
+    this.name = "RateLimitError";
+  }
+}

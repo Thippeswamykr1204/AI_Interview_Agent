@@ -1,0 +1,94 @@
+{
+  "id": "session_ec81ffa0-19ba-47cd-b4d4-33aee4fd55e2",
+  "role": "Full Stack Developer",
+  "skills": [
+    "Python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Explain the concept of decorators in Python. Provide a practical example of when you would use a decorator in a web application context and how it would improve your code's maintainability or functionality.",
+      "category": "technical",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T15:21:15.845Z"
+    },
+    {
+      "index": 1,
+      "question": "As a full-stack developer, describe your approach to designing and consuming a RESTful API for a new feature. What considerations do you take into account for both the backend implementation (e.g., data validation, error handling) and the frontend integration (e.g., state management, asynchronous requests)?",
+      "category": "role-specific",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T15:21:19.375Z"
+    },
+    {
+      "index": 2,
+      "question": "Describe a time you encountered a particularly challenging bug or performance bottleneck in a project you were working on. How did you diagnose the issue, what steps did you take to resolve it, and what did you learn from the experience?",
+      "category": "behavioral",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T15:21:23.218Z"
+    },
+    {
+      "index": 3,
+      "question": "Imagine you are building an e-commerce application where users can add items to a shopping cart. Design the data model and outline the backend logic for handling cart operations (add, remove, update quantity) while ensuring data consistency and handling concurrent updates. What potential issues might arise and how would you mitigate them?",
+      "category": "problem-solving",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T15:21:27.250Z"
+    },
+    {
+      "index": 4,
+      "question": "You need to implement a basic notification system for a web application where users receive real-time alerts (e.g., 'Your order has shipped', 'New message'). Outline the key architectural components you would use on both the frontend and backend, and describe how they would interact to deliver these notifications. What are some potential trade-offs or challenges you would anticipate with this design?",
+      "category": "system-design",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T15:21:35.623Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T15:21:05.986Z",
+  "completedAt": "2026-07-07T15:21:35.623Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [],
+    "gaps": [
+      "Inability to articulate responses to technical questions (Python decorators, RESTful API design).",
+      "Lack of demonstrable problem-solving skills (e-commerce cart, challenging bug diagnosis).",
+      "Absence of system design understanding (notification system architecture).",
+      "No evidence of behavioral competencies or ability to reflect on past experiences.",
+      "Fundamental lack of engagement or communication during the interview."
+    ],
+    "recommendation": "The candidate provided no answers to any of the interview questions, resulting in a complete lack of hiring signal across all assessed areas, including technical knowledge, problem-solving, system design, and behavioral competencies. There is no basis to recommend moving forward with this candidate.",
+    "generatedAt": "2026-07-07T15:21:41.520Z"
+  }
+}

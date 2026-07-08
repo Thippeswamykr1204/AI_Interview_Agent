@@ -1,0 +1,93 @@
+{
+  "id": "session_a8faae89-e110-4b17-96d8-b09f509c511a",
+  "role": "Full Stack Developer",
+  "skills": [
+    "TypeScript"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Explain how you would use TypeScript's utility types (e.g., `Partial`, `Readonly`, `Pick`, `Omit`) and conditional types to define more flexible and robust types for an application's data models and API request/response payloads. Provide a concrete scenario where one of these would significantly improve type safety or developer experience.",
+      "category": "technical",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-08T03:52:12.968Z"
+    },
+    {
+      "index": 1,
+      "question": "Describe the typical workflow you'd follow when implementing a new feature that involves both front-end (e.g., React component) and back-end (e.g., Node.js API endpoint) changes, from initial design to deployment. What are the key considerations and potential challenges you anticipate at each stage?",
+      "category": "role-specific",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-08T03:52:18.821Z"
+    },
+    {
+      "index": 2,
+      "question": "Imagine you are building a real-time chat application. How would you design the data flow and communication protocols between the front-end clients and the back-end server to handle message delivery, presence updates, and history synchronization efficiently and reliably?",
+      "category": "problem-solving",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-08T03:52:26.649Z"
+    },
+    {
+      "index": 3,
+      "question": "Tell me about a time you had to make a significant technical decision where there wasn't a clear 'best' option. What was the decision, what factors did you consider, and how did you evaluate the trade-offs before making your choice? What was the outcome and what did you learn?",
+      "category": "behavioral",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-08T03:52:29.653Z"
+    },
+    {
+      "index": 4,
+      "question": "Your application needs to support user authentication and authorization using a JWT-based system. Describe how you would design the system to handle token generation, validation, refresh, and secure storage across both the front-end and back-end, considering scalability and security best practices.",
+      "category": "system-design",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-08T03:52:32.486Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-08T03:51:48.232Z",
+  "completedAt": "2026-07-08T03:52:32.486Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [],
+    "gaps": [
+      "Complete lack of technical knowledge across all assessed areas, including TypeScript, system design, and problem-solving.",
+      "Inability to articulate typical full-stack development workflows or approaches to common challenges.",
+      "No demonstrable behavioral competencies or ability to reflect on past experiences.",
+      "Absence of engagement or response to any interview questions."
+    ],
+    "recommendation": "The candidate provided no responses to any of the interview questions, resulting in a complete lack of signal across all assessed areas. There is no basis to evaluate their technical proficiency, problem-solving abilities, or role-specific experience. Therefore, we cannot recommend moving forward with this candidate for the Full Stack Developer role.",
+    "generatedAt": "2026-07-08T03:52:38.601Z"
+  }
+}

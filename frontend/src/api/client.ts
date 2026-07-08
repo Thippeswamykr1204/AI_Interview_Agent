@@ -3,11 +3,22 @@ import { ApiErrorResponse } from "../types/interview.types";
 
 const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000/api";
 
+// NOTE on this API_KEY approach: it authenticates the *client application*
+// to the backend (server-to-server style shared secret), not an individual
+// user. Because this is a browser bundle, the key is visible to anyone who
+// opens devtools — it stops anonymous internet traffic from hitting the API,
+// but it is NOT a substitute for real user authentication. If this app is
+// ever deployed for the public (not just internal/trusted users), replace
+// this with per-user login (session cookie or short-lived JWT issued by a
+// /auth/login endpoint) so sessions can be tied to and scoped by user.
+const API_KEY = import.meta.env.VITE_API_KEY || "dev-local-key";
+
 export const apiClient: AxiosInstance = axios.create({
   baseURL: BASE_URL,
   timeout: 30000,
   headers: {
     "Content-Type": "application/json",
+    Authorization: `Bearer ${API_KEY}`,
   },
 });
 

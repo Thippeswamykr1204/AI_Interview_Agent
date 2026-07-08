@@ -1,0 +1,92 @@
+{
+  "id": "session_44ec51cb-e0e7-4152-b4aa-c50bd97ec254",
+  "role": "Full stack development",
+  "skills": [
+    "Python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Discuss the differences between `threading` and `asyncio` in Python. When would you choose one over the other for a web application backend, and what are the implications of that choice for application performance and design?",
+      "category": "technical",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:08:33.748Z"
+    },
+    {
+      "index": 1,
+      "question": "Describe your typical process for integrating a new frontend feature (e.g., a new user profile page) with its corresponding backend API endpoint. What steps do you take from both the frontend and backend perspectives to ensure a smooth and robust integration, including testing and error handling?",
+      "category": "role-specific",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:08:36.719Z"
+    },
+    {
+      "index": 2,
+      "question": "Tell me about a time you encountered a significant technical challenge or bug in a full-stack application that was difficult to diagnose and fix. What was your systematic approach to identifying the root cause, what steps did you take to resolve it, and what did you learn from the experience?",
+      "category": "behavioral",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:08:39.238Z"
+    },
+    {
+      "index": 3,
+      "question": "Imagine you're building a RESTful API for a small social media platform. How would you design the API endpoints and database schema for managing user posts, including aspects like content, author, timestamps, and simple likes/comments, while considering performance and data integrity?",
+      "category": "system-design",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:08:41.511Z"
+    },
+    {
+      "index": 4,
+      "question": "A user reports that a specific section of your web application occasionally loads slowly or displays outdated data, but not consistently. You suspect it might be related to caching or network requests. How would you approach debugging this issue in a browser, and what potential causes would you investigate on both the frontend and backend?",
+      "category": "problem-solving",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T09:08:44.266Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T09:08:29.816Z",
+  "completedAt": "2026-07-07T09:08:44.266Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [],
+    "gaps": [
+      "Inability to provide answers to any technical, role-specific, behavioral, system design, or problem-solving questions.",
+      "Lack of demonstrated knowledge in Python concurrency, full-stack integration patterns, debugging methodologies, or API/database design.",
+      "Absence of communication or problem-solving approach during the interview."
+    ],
+    "recommendation": "The candidate provided no answers to any of the interview questions, resulting in a score of 0 across all categories. This complete lack of engagement or demonstrable knowledge makes it impossible to assess any relevant skills for a mid-level full-stack development role. Therefore, there is a strong recommendation against hiring.",
+    "generatedAt": "2026-07-07T09:08:51.112Z"
+  }
+}

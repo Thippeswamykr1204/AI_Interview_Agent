@@ -1,0 +1,96 @@
+{
+  "id": "session_5baf70b4-b466-42e8-8c2a-44681961291a",
+  "role": "Machine Learning Engineer",
+  "skills": [
+    "Python"
+  ],
+  "difficulty": "mid",
+  "status": "completed",
+  "questions": [
+    {
+      "index": 0,
+      "question": "Explain the concepts of bias and variance in machine learning. How do they relate to model complexity, and what techniques do you use to address issues related to high bias or high variance?",
+      "category": "technical",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T10:29:34.529Z"
+    },
+    {
+      "index": 1,
+      "question": "Imagine you need to deploy a new real-time fraud detection model. Outline the key architectural components you would consider for its deployment, from data ingestion to model serving and monitoring.",
+      "category": "system-design",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T10:29:38.788Z"
+    },
+    {
+      "index": 2,
+      "question": "Describe a time when you had to make a significant trade-off between model performance (e.g., accuracy) and another important factor (e.g., interpretability, latency, cost). How did you approach the decision, and what was the outcome?",
+      "category": "behavioral",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T10:29:42.031Z"
+    },
+    {
+      "index": 3,
+      "question": "You've built a robust machine learning model that performs exceptionally well on your offline validation metrics. However, once deployed to production, it consistently underperforms. What steps would you take to systematically diagnose and resolve this performance degradation?",
+      "category": "problem-solving",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T10:29:45.028Z"
+    },
+    {
+      "index": 4,
+      "question": "Beyond just training a model, what are the critical steps and considerations involved in ensuring a machine learning model is ready for and maintains reliable performance in a production environment?",
+      "category": "role-specific",
+      "answer": "",
+      "score": 0,
+      "feedback": "No answer was provided for this question.",
+      "strengths": [],
+      "gaps": [
+        "No response given"
+      ],
+      "answeredAt": "2026-07-07T10:29:47.749Z"
+    }
+  ],
+  "currentQuestionIndex": 4,
+  "totalQuestions": 5,
+  "createdAt": "2026-07-07T10:21:43.820Z",
+  "completedAt": "2026-07-07T10:29:47.749Z",
+  "finalEvaluation": {
+    "overallScore": 0,
+    "averageScore": 0,
+    "strengths": [
+      "No strengths were demonstrated as the candidate did not provide answers to any of the interview questions."
+    ],
+    "gaps": [
+      "Complete lack of understanding or ability to articulate fundamental machine learning concepts (e.g., bias-variance).",
+      "Inability to outline key architectural components for ML system deployment and monitoring.",
+      "Failure to demonstrate problem-solving skills for diagnosing and resolving production model underperformance.",
+      "Lack of knowledge regarding critical MLOps considerations for reliable model performance in production.",
+      "No behavioral responses provided to assess decision-making, trade-off analysis, or communication skills."
+    ],
+    "recommendation": "The candidate provided no answers to any of the technical, system design, behavioral, or problem-solving questions. Consequently, no hiring signal was generated across any of the assessed skill areas. Based on this complete lack of engagement and response, we cannot recommend moving forward with this candidate for the Machine Learning Engineer role.",
+    "generatedAt": "2026-07-07T10:29:53.806Z"
+  }
+}
