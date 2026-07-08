@@ -8,10 +8,12 @@ Built for the 24-Hour AI Agent Challenge.
 
 - Generates 5+ role-relevant interview questions from a role + skills input
 - Scores each answer (0–10) with specific feedback, strengths, and gaps
+- Accepts answers typed **or spoken** — tap the mic to answer by voice (live transcription)
 - Produces a final evaluation (0–100 overall score, strengths, gaps, recommendation)
 - Full transcript view of the entire interview
 - Provider-agnostic AI layer (swap Gemini for another LLM without touching business logic)
 - JSON file storage (swappable for SQLite via the same storage interface)
+- Automated backend test suite (Jest) covering scoring, question generation, and session lifecycle logic
 
 ## Tech Stack
 
@@ -62,6 +64,25 @@ npm run dev
 ```
 
 Runs on `http://localhost:5173`. No `.env` needed for local dev — it defaults to `http://localhost:4000/api`. To point elsewhere, set `VITE_API_BASE_URL` in a `frontend/.env`.
+
+## Voice Input
+
+Answers can be typed, spoken, or both in the same response.
+
+- Tap the mic icon next to the answer box to start listening.
+- Speech is transcribed **entirely in your browser** using the Web Speech API — no audio is uploaded to the backend, no extra API key needed.
+- Works in Chrome, Edge, and Safari 14.1+. Firefox doesn't implement this API yet; the mic button is hidden automatically and typing still works.
+- Transcribed text lands in the same textarea as typed text, so you can speak part of an answer and type the rest.
+
+## Testing
+
+```bash
+cd backend
+npm install
+npm test
+```
+
+Covers: JSON-from-AI-text parsing (fenced/embedded/malformed), answer scoring normalization and clamping, final-evaluation aggregation, question-generation validation, and session lifecycle rules (question count clamping, progression, completion). AI calls are mocked — no API key or network needed to run tests.
 
 ## Sample Output
 
@@ -115,9 +136,12 @@ Contains: 5 questions, 5 scored answers, final evaluation.
 ## Limitations
 
 - Single AI provider implemented (Gemini). Interface supports more, none built.
-- No transcribed voice input. Typed answers only.
-- No automated tests.
+- Voice input transcribes in-browser (Web Speech API) rather than server-side; unsupported in Firefox.
+- Automated tests cover backend scoring/session logic; no frontend tests or integration/e2e tests yet.
 - Session storage not thread-safe under concurrent load.
 - No rate limiting on API endpoints.
-- API key currently checked into `.env` in this build. Must rotate before any public repo push.
 - No pagination for session list (not needed at current scale, would matter at higher volume).
+
+## Security Note
+
+This repo previously had a **live Gemini API key committed in `backend/.env`**. It has been replaced with a placeholder. If you had already used this key: **rotate it immediately** at https://aistudio.google.com/apikey — treat it as compromised since it was distributed in a shared zip. `.env` is gitignored going forward; only `.env.example` (placeholder values) should ever be committed.
